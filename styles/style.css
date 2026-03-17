@@ -113,7 +113,7 @@
   --color-text-secondary: #333;
   --color-accent-primary: #882b2b;
   --color-accent-secondary: #ff057c;
-  --color-overlay-primary: rgba(82, 0, 255, 0.5);
+  --color-overlay-primary: #ccbe48;
   --color-highlight: lemonchiffon;
   --color-fallback: #ff057c; /* Fallback color for glitch effect on 404 page */
   /* Backgrounds */
@@ -141,7 +141,7 @@
   --color-link-visited: #5200ff;
   /* Navigation */
   --color-nav-link: #4c0004;
-  --color-nav-link-hover: #321575;
+  --color-nav-link-hover: #882b2b;
   --color-nav-arrow: #5200ff;
   --color-nav-arrow-hover: #4a2c29;
   --color-nav-arrow-stroke: #5200ff;
@@ -212,7 +212,7 @@ html {
   box-sizing: border-box; /* Makes sure padding and borders don't add extra width to elements */
   scroll-behavior: smooth; /* Adds smooth scrolling between sections */
   cursor:
-    url("../assets/temp/up-cursor.png"), auto !important; /* Custom cursor (change the URL below to use your own) */
+    url("../assets/temp/ac-test-cursor.png"), auto !important; /* Custom cursor (change the URL below to use your own) */
 
   /* TODO: Replace the URL above to add a custom cursor. 
      If you want to use the default browser cursor, just delete this line. */
