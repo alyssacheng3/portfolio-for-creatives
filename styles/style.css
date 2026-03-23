@@ -112,7 +112,7 @@
   --color-text-primary: #4a2c29;
   --color-text-secondary: #333;
   --color-accent-primary: #882b2b;
-  --color-accent-secondary: #ff057c;
+  --color-accent-secondary: #ccbe48;
   --color-overlay-primary: #ccbe48;
   --color-highlight: lemonchiffon;
   --color-fallback: #ff057c; /* Fallback color for glitch effect on 404 page */
@@ -152,12 +152,7 @@
   --color-bg-sidebar-project: transparent;
   --color-bg-sidebar-work: lemonchiffon;
   --color-gradient-hero: linear-gradient(90deg, #ff00ff, #00ffff);
-  --color-gradient-project-details: linear-gradient(
-    -225deg,
-    #ff057c 0%,
-    #8d0b93 50%,
-    #321575 100%
-  );
+  --color-project-details: #ccbe48;
   /* Special Elements */
   --color-icon-heart: darkred;
   --color-text-holding-footer: #f8f8ff;
@@ -315,16 +310,6 @@ svg {
 /* ------------------------------ */
 /* 🌀 Animation & Interaction Tools */
 /* ------------------------------ */
-
-/* Smooth transition when applying transformations – improves hover experience */
-.rotate {
-  transition: transform 0.3s ease;
-}
-
-/* Rotates the element slightly on hover – adds a playful effect */
-.rotate:hover {
-  transform: rotate(4deg);
-}
 
 /* ----------------------------- */
 /* 📦 Padding Utilities (Mobile First) */
@@ -1185,9 +1170,6 @@ a.nav-link-primary:hover {
 .project-details {
   width: 100%;
   padding: var(--padding-small);
-  background: var(
-    --color-gradient-project-details
-  ); /* TODO: Remove gradient background if you prefer a simpler design */
 }
 
 /* Previous/Next Arrow Styles */
