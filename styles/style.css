@@ -113,7 +113,7 @@
   --color-text-secondary: #333;
   --color-accent-primary: #882b2b;
   --color-accent-secondary: #ccbe48;
-  --color-overlay-primary: #ccbe48;
+  --color-overlay-primary: rgb(204, 190, 72, 0.9);
   --color-highlight: lemonchiffon;
   --color-fallback: #ff057c; /* Fallback color for glitch effect on 404 page */
   /* Backgrounds */
@@ -1452,7 +1452,7 @@ to keep your styles reusable and consistent.
   }
 
   .hero {
-    min-height: 80vh;
+    min-height: 85vh;
   }
 
   .hero-headline-wrapper {
