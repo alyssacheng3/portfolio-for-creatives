@@ -120,7 +120,6 @@
   --color-bg: #fffcef;
   --color-bg-about: #fffcef;
   --color-bg-footer: #fffcef;
-  --color-bg-holding-page: rgba(82, 0, 255, 0.6);
   /* Headings */
   --h1-color: #4c0004;
   --h2-color: #4c0004;
@@ -136,9 +135,9 @@
   --color-text-project-title: #4c0004;
   --color-text-work-grid-title: #ffffff;
   /* Link States */
-  --color-link: #5200ff;
+  --color-link: #882b2b;
   --color-link-hover: #111;
-  --color-link-visited: #5200ff;
+  --color-link-visited: #4c0004;
   /* Navigation */
   --color-nav-link: #4c0004;
   --color-nav-link-hover: #882b2b;
@@ -156,7 +155,7 @@
   /* Special Elements */
   --color-icon-heart: darkred;
   --color-text-holding-footer: #f8f8ff;
-  --color-bg-selection: #5200ff;
+  --color-bg-selection: #ccbe48;
   --color-shadow-stroke: rgba(0, 0, 0, 0.4);
   /* Assets */
   --image-noise-texture: url(/assets/temp/noise.svg);
@@ -564,6 +563,11 @@ sup {
 /* 🏷️ Project category label — displays the type or role of the project */
 .work-grid-project-category {
   color: var(--color-text-project-category);
+}
+
+/* About Text */
+.about-me-text {
+  font-size: 1.5rem;
 }
 
 /*
@@ -1448,7 +1452,7 @@ to keep your styles reusable and consistent.
   }
 
   .hero {
-    min-height: 100vh;
+    min-height: 80vh;
   }
 
   .hero-headline-wrapper {
