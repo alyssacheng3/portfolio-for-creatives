@@ -1465,6 +1465,10 @@ to keep your styles reusable and consistent.
     min-height: 85vh;
   }
 
+  .hero-smaller {
+    min-height: 45vh;
+  }
+
   .hero-headline-wrapper {
     padding-top: var(--padding-jumbo);
     padding-bottom: var(--padding-jumbo);
@@ -1480,6 +1484,10 @@ to keep your styles reusable and consistent.
 
   .error-404 {
     font-size: 5rem;
+  }
+
+  .error-image {
+    width: 20vh;
   }
 
   /* Work Page Grid for Large Devices */
