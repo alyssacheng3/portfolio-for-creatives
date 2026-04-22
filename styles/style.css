@@ -1389,6 +1389,20 @@ to keep your styles reusable and consistent.
 
 @media (min-width: 768px) {
   /* TODO: Adjust  layout for tablets */
+  .error-text {
+    font-size: 14rem;
+  }
+
+  .error-image {
+    width: 16vh;
+    padding: var(--padding-medium);
+    transition: transform 0.3s ease; /* Smooth animation */
+    transform-origin: center; /* Scale from the center */
+  }
+
+  .error-image:hover {
+    transform: scale(1.2); /* Scale to 120% */
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
