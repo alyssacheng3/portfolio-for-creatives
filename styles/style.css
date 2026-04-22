@@ -207,7 +207,7 @@ html {
   box-sizing: border-box; /* Makes sure padding and borders don't add extra width to elements */
   scroll-behavior: smooth; /* Adds smooth scrolling between sections */
   cursor:
-    url("../assets/branding-images/alyssa-cheng-leaf-cursor.png"), auto !important; /* Custom cursor (change the URL below to use your own) */
+    url("../assets/branding-images/alyssa-cheng-leaf-cursor.svg"), auto !important; /* Custom cursor (change the URL below to use your own) */
 }
 
 /* Ensure all elements, including pseudo-elements, follow border-box sizing */
