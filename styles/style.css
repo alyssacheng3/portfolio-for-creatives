@@ -208,9 +208,6 @@ html {
   scroll-behavior: smooth; /* Adds smooth scrolling between sections */
   cursor:
     url("../assets/branding-images/alyssa-cheng-leaf-cursor.png"), auto !important; /* Custom cursor (change the URL below to use your own) */
-
-  /* TODO: Replace the URL above to add a custom cursor. 
-     If you want to use the default browser cursor, just delete this line. */
 }
 
 /* Ensure all elements, including pseudo-elements, follow border-box sizing */
@@ -1487,7 +1484,14 @@ to keep your styles reusable and consistent.
   }
 
   .error-image {
-    width: 20vh;
+    width: 26vh;
+    padding: var(--padding-medium);
+    transition: transform 0.3s ease; /* Smooth animation */
+    transform-origin: center; /* Scale from the center */
+  }
+
+  .error-image:hover {
+    transform: scale(1.2); /* Scale to 120% */
   }
 
   /* Work Page Grid for Large Devices */
