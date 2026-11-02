@@ -101,8 +101,6 @@
 /* These design variables store important elements like colours and fonts.
    You can easily change the look and feel of your site by adjusting these values. */
 
-/* TODO: Customize these variables to fit your design. You can add new ones or delete ones you don’t need. */
-
 :root {
   /* Typography */
   --font-family-body: "Inter", sans-serif;
@@ -206,8 +204,8 @@
 html {
   box-sizing: border-box; /* Makes sure padding and borders don't add extra width to elements */
   scroll-behavior: smooth; /* Adds smooth scrolling between sections */
-  cursor:
-    url("../assets/branding-images/alyssa-cheng-leaf-cursor.svg"), auto !important; /* Custom cursor (change the URL below to use your own) */
+  cursor:;
+  /* url("../assets/branding-images/alyssa-cheng-leaf-cursor.svg"), auto !important; /* Custom cursor (change the URL below to use your own) */
 }
 
 /* Ensure all elements, including pseudo-elements, follow border-box sizing */
