@@ -518,7 +518,7 @@ sup {
 /* Large project title — appears on individual project pages */
 .project-title {
   font-size: 3.625rem;
-  font-family: var(--font-family-project-title);
+  font-family: var(--font-family-heading);
   color: var(--color-text-project-title);
   margin-bottom: 1rem;
 }
