@@ -103,9 +103,9 @@
 
 :root {
   /* Typography */
-  --font-family-body: "Inter", sans-serif;
-  --font-family-heading: "DM Mono", monospace;
-  --font-family-project-title: "DM Mono", monospace;
+  --font-family-body: "DM Mono", monospace;
+  --font-family-heading: "Inter", sans-serif;
+  --font-family-project-title: "Noto Serif", serif;
   /* Core Colours */
   --color-text-primary: #4a2c29;
   --color-text-secondary: #333;
